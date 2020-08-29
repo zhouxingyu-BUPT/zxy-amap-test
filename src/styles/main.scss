@@ -1,0 +1,12 @@
+@import "./normalize.scss";
+@import "./sassConfig.scss";
+
+i[class^=icon] {//获取类名为icon的i标签
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    background-color: $color-main;
+    background-repeat: no-repeat;
+}
+.icon-help { background-image: url(~@/assets/images/icon/icon-help.png); }
